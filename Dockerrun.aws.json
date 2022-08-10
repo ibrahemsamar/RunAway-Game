@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "registry.hub.docker.com/dohahq/dojo-jump:latest"
+      "Name": "registry.hub.docker.com/dohahq/runaway-game:latest"
     },
     "Ports": [
       {
