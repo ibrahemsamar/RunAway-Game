@@ -8,8 +8,8 @@ pipeline {
    		AWS_SECRET_ACCESS_KEY = credentials('jenkins-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
 		AWS_S3_BUCKET = 'dohaqadi-belt2-artifacts-123456'
-		AWS_EB_APP_NAME = 'RunAway-Game'
-        AWS_EB_ENVIRONMENT_NAME = 'Runawaygame-env'
+		AWS_EB_APP_NAME = 'RunAway-Docker-game'
+        AWS_EB_ENVIRONMENT_NAME = 'Runawaydockergame-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
 	}
 
